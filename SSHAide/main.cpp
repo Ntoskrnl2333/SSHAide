@@ -11,7 +11,22 @@ public:
 
 int main(int argc, char **argv) {
 	AnalArgs(argc, argv);
+	if (Settings.ctetml) {
+		RestartInNewTerminal(argc,argv);
+		exit(SA_ERROR_NOERROR);
+	}
+	if (Settings.cls)
+		ClearScreen();
+
+	/// <summary>
+	///	TODO: nmap and ping support
+	/// </summary>
 	
+	string IP = GetIP();
+
+	
+	if (Settings.pause)
+		Pause();
 	return 0;
 }
 
