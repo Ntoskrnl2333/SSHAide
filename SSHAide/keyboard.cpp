@@ -1,14 +1,30 @@
 #include "sshaide.h"
 
 char KBNowHit() {
-	return kbhit() ? getch() : '\0';
+	return _kbhit() ? _getch() : '\0';
 }
 
 char KBWaitHit() {
-	return getch();
+	return _getch();
 }
 
-string KBGetNextString() {
+string KBGetNextLine() {
 	char buf[STR_MAX_SIZE];
+	char *p = buf, *end=buf+STR_MAX_SIZE;
+	while (p != end) {
+		*p = KBWaitHit();
 
+		if (*p == '\b')
+			PutString("\b \b");
+		else if (*p == '\n' || *p == '\r'){
+			PutChar('\n');
+			break;
+		}
+		else
+			PutChar(*p);
+
+		p++;
+	}
+	*p = '\0';
+	return buf;
 }

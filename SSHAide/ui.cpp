@@ -1,12 +1,11 @@
-/*
-Input the IP of the server:
-
->>
-*/
 #include "sshaide.h"
 
-void GetIP() {
-	PutString("Input the IP of the server:\n\n>> ");
-	string ip=KBGetNextString();
+string GetTargetServerIP() {
+	PutString("Input the IP of the server:\n>> ");
+	return KBGetNextLine();
+}
 
+string GetTargetUsername(){
+	PutString("Input the username:\n>> ");
+	return KBGetNextLine();
 }

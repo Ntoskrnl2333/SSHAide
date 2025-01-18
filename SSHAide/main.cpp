@@ -22,8 +22,11 @@ int main(int argc, char **argv) {
 	///	TODO: nmap and ping support
 	/// </summary>
 	
-	string IP = GetIP();
+	string IP = GetTargetServerIP();
 
+	string Username = GetTargetUsername();
+
+	CallExecutable("ssh.exe", Username+" "+IP);
 	
 	if (Settings.pause)
 		Pause();
