@@ -1,0 +1,20 @@
+﻿  keyboard.cpp
+F:\C++\SSHAide\SSHAide\sshaide.h(22,24): warning C4091: “extern ”: 没有声明变量时忽略“__Settings”的左侧
+F:\C++\SSHAide\SSHAide\sshaide.h(24,19): warning C4091: “extern ”: 没有声明变量时忽略“Pos2D”的左侧
+  main.cpp
+F:\C++\SSHAide\SSHAide\sshaide.h(22,24): warning C4091: “extern ”: 没有声明变量时忽略“__Settings”的左侧
+F:\C++\SSHAide\SSHAide\sshaide.h(24,19): warning C4091: “extern ”: 没有声明变量时忽略“Pos2D”的左侧
+  mouse.cpp
+F:\C++\SSHAide\SSHAide\sshaide.h(22,24): warning C4091: “extern ”: 没有声明变量时忽略“__Settings”的左侧
+F:\C++\SSHAide\SSHAide\sshaide.h(24,19): warning C4091: “extern ”: 没有声明变量时忽略“Pos2D”的左侧
+  output.cpp
+F:\C++\SSHAide\SSHAide\sshaide.h(22,24): warning C4091: “extern ”: 没有声明变量时忽略“__Settings”的左侧
+F:\C++\SSHAide\SSHAide\sshaide.h(24,19): warning C4091: “extern ”: 没有声明变量时忽略“Pos2D”的左侧
+  sysapi.cpp
+F:\C++\SSHAide\SSHAide\sshaide.h(22,24): warning C4091: “extern ”: 没有声明变量时忽略“__Settings”的左侧
+F:\C++\SSHAide\SSHAide\sshaide.h(24,19): warning C4091: “extern ”: 没有声明变量时忽略“Pos2D”的左侧
+  ui.cpp
+F:\C++\SSHAide\SSHAide\sshaide.h(22,24): warning C4091: “extern ”: 没有声明变量时忽略“__Settings”的左侧
+F:\C++\SSHAide\SSHAide\sshaide.h(24,19): warning C4091: “extern ”: 没有声明变量时忽略“Pos2D”的左侧
+  正在生成代码...
+  SSHAide.vcxproj -> F:\C++\SSHAide\SSHAide\x64\Debug\SSHAide.exe

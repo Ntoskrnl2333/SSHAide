@@ -21,9 +21,24 @@
     <ClCompile Include="mouse.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="keyboard.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sysapi.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="output.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ui.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="sshaide.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="defines.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
